@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D808C9D55F2B55AC39F13D /* SpliceTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D2558F3C55CD2BA4F050D /* SpliceTokens.swift */; };
+		0608A9B25EC85621E5D733EE /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = C52867BA30BCC5BFC3B71981 /* OneSignalExtension */; };
+		0BF19716D10B7667C076C655 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = B637C3B5F2154D005034C5AA /* OneSignalInAppMessages */; };
+		0DDF9D31553806967F5E059B /* GateLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ABD669E54A9EB5199351E8 /* GateLane.swift */; };
+		0F8608B0511C4E4731F61064 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D0EB9B4434AEA5C78B2D9 /* ContentView.swift */; };
+		11B37836BAC24308702D2E8D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25991BF419CA4DDD8270BFD9 /* NotificationService.swift */; };
+		135B3C9487AE066A03A34AD5 /* DarkEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECFE6A92622BDC9C9433DD /* DarkEmpty.swift */; };
+		1C2946CBEA5764154990181F /* DiscoverSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD07DA613B0699BE50CD434 /* DiscoverSheet.swift */; };
+		1DB913581E6996B4C9E10159 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098E76A770866811DA7A562 /* DesignTokens.swift */; };
+		21AFC8146316E4B601BCC5F8 /* BurnMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23B1C5080E1EC49E93E041 /* BurnMark.swift */; };
+		238366C9B42237DBFED91CEE /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 21588A03EFD95BBAC4B4E965 /* OneSignalFramework */; };
+		3047771F06A9CCFE94B94921 /* TitleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFDF20782306B0387006C5 /* TitleSearch.swift */; };
+		4AE4F8FD7D93644592177E24 /* ProfileSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4DC82511E57066EDC24FD /* ProfileSheet.swift */; };
+		5C89BA24E90DB6081139BACF /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A9FDE3748AD6EA640B1F02 /* APIConfig.swift */; };
+		5D028794B91BE9B6C6718178 /* SplicerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3FE936B0FBACC3AC0F4CE /* SplicerTests.swift */; };
+		6783E5099AF93C51209123B5 /* BoardDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B05955E1BFDDB9A88E60E3D /* BoardDesk.swift */; };
+		8184944F440C6102CD09E16B /* StackLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B872D62DC8FD0023B33312 /* StackLane.swift */; };
+		82B40F677B3B67348D43E936 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1A25BBBB45B6E613DFC812C1 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93A29F8ADA38ED76A6788915 /* AshSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F11434B871E0CD9B8490A /* AshSheet.swift */; };
+		9B8498CB3E35A0FCA56598FF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 98EA37FC27B838AC2E26DD95 /* Alamofire */; };
+		A5C38714D44BC4182A19FC88 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53626212A5F9F7AF67888B3A /* Stub.swift */; };
+		AE0BDE563407F05929187910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78AB37D0D3D6620DA88B5E8D /* Assets.xcassets */; };
+		C97F50AE0236193D9C4332AD /* SlipMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C46222EA2497B986E1972B /* SlipMark.swift */; };
+		D7B386D43653D3C6C2628D2C /* LaneChartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4719261827EEFF918A083AFD /* LaneChartStore.swift */; };
+		D9F9BB8D384CDDEC5EACDB01 /* BoardRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2AAA799255B4117B6B851 /* BoardRoot.swift */; };
+		E095C997A97295F8675AAA22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48407B5D5A759A4A5F471C6D /* AppDelegate.swift */; };
+		E487A507005019EA6295D901 /* OnboardingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF35067887B978FF92D0AA5 /* OnboardingCover.swift */; };
+		E8E4AB2BBE0E93FBDC590847 /* BoardFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF62AF74881495307BC4B11 /* BoardFold.swift */; };
+		E955B0C46169C018D474F5E0 /* SplicerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1DC663683B4A562AB2B39 /* SplicerApp.swift */; };
+		EAB1C0BFB9003C177D158C27 /* LaneLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8E6EDDFEFE59C351254F0 /* LaneLayout.swift */; };
+		F09649D62E437DD41ABD167F /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2419458905D051579C99FF /* SettingsSheet.swift */; };
+		F31414A2B873EDEB13E9D02B /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CFE5B31FBB853626DA857E /* ReviewLaunch.swift */; };
+		F523DA088946A227DA90E16C /* BurnChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868638A6775576B8520B2B7E /* BurnChrome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B7D2D29A3A57B15C9B9A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C7D585BAA318C3249303AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BB36F536982BF0B6CE31BA;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		A9A4372417F45E717F0A838A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C7D585BAA318C3249303AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934C41EBDCAFA7A8C1E1A52C;
+			remoteInfo = Splicer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43AEF1DF3031A9B587DF67C5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82B40F677B3B67348D43E936 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		018F11434B871E0CD9B8490A /* AshSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshSheet.swift; sourceTree = "<group>"; };
+		15AFDF20782306B0387006C5 /* TitleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSearch.swift; sourceTree = "<group>"; };
+		1A25BBBB45B6E613DFC812C1 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF35067887B978FF92D0AA5 /* OnboardingCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCover.swift; sourceTree = "<group>"; };
+		25991BF419CA4DDD8270BFD9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2B05955E1BFDDB9A88E60E3D /* BoardDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDesk.swift; sourceTree = "<group>"; };
+		38ECFE6A92622BDC9C9433DD /* DarkEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkEmpty.swift; sourceTree = "<group>"; };
+		42D4DC82511E57066EDC24FD /* ProfileSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSheet.swift; sourceTree = "<group>"; };
+		44B872D62DC8FD0023B33312 /* StackLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackLane.swift; sourceTree = "<group>"; };
+		4719261827EEFF918A083AFD /* LaneChartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneChartStore.swift; sourceTree = "<group>"; };
+		48407B5D5A759A4A5F471C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53626212A5F9F7AF67888B3A /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		5D6C1B9AA1EB64A1C17D93AD /* Splicer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Splicer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0D0EB9B4434AEA5C78B2D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62B8E6EDDFEFE59C351254F0 /* LaneLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneLayout.swift; sourceTree = "<group>"; };
+		66E1DC663683B4A562AB2B39 /* SplicerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplicerApp.swift; sourceTree = "<group>"; };
+		7098E76A770866811DA7A562 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		73CFE5B31FBB853626DA857E /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		78AB37D0D3D6620DA88B5E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78E2AAA799255B4117B6B851 /* BoardRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardRoot.swift; sourceTree = "<group>"; };
+		868638A6775576B8520B2B7E /* BurnChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnChrome.swift; sourceTree = "<group>"; };
+		8C9D2558F3C55CD2BA4F050D /* SpliceTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpliceTokens.swift; sourceTree = "<group>"; };
+		99ABD669E54A9EB5199351E8 /* GateLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateLane.swift; sourceTree = "<group>"; };
+		A2E3FE936B0FBACC3AC0F4CE /* SplicerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplicerTests.swift; sourceTree = "<group>"; };
+		B8C743AC9F2019E9334B3E58 /* SplicerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SplicerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD07DA613B0699BE50CD434 /* DiscoverSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverSheet.swift; sourceTree = "<group>"; };
+		CDF62AF74881495307BC4B11 /* BoardFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardFold.swift; sourceTree = "<group>"; };
+		E1C46222EA2497B986E1972B /* SlipMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipMark.swift; sourceTree = "<group>"; };
+		EA23B1C5080E1EC49E93E041 /* BurnMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnMark.swift; sourceTree = "<group>"; };
+		F8A9FDE3748AD6EA640B1F02 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		FD2419458905D051579C99FF /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540B0DEBC5302A5E0A0B7246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8498CB3E35A0FCA56598FF /* Alamofire in Frameworks */,
+				238366C9B42237DBFED91CEE /* OneSignalFramework in Frameworks */,
+				0BF19716D10B7667C076C655 /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D306E2A0561AC034FEDBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0608A9B25EC85621E5D733EE /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0867FB0CB8E555663A8212A7 /* Gate */ = {
+			isa = PBXGroup;
+			children = (
+				99ABD669E54A9EB5199351E8 /* GateLane.swift */,
+			);
+			path = Gate;
+			sourceTree = "<group>";
+		};
+		5B272DB1B8B628E57A99F3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A25BBBB45B6E613DFC812C1 /* OneSignalNotificationServiceExtension.appex */,
+				5D6C1B9AA1EB64A1C17D93AD /* Splicer.app */,
+				B8C743AC9F2019E9334B3E58 /* SplicerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BBA6AA10B47EE198E06072F /* BurnMark */ = {
+			isa = PBXGroup;
+			children = (
+				018F11434B871E0CD9B8490A /* AshSheet.swift */,
+				EA23B1C5080E1EC49E93E041 /* BurnMark.swift */,
+				42D4DC82511E57066EDC24FD /* ProfileSheet.swift */,
+			);
+			path = BurnMark;
+			sourceTree = "<group>";
+		};
+		6E7382EBD9013E25EE27B88C /* Splicer */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9FDE3748AD6EA640B1F02 /* APIConfig.swift */,
+				48407B5D5A759A4A5F471C6D /* AppDelegate.swift */,
+				78AB37D0D3D6620DA88B5E8D /* Assets.xcassets */,
+				5F0D0EB9B4434AEA5C78B2D9 /* ContentView.swift */,
+				7098E76A770866811DA7A562 /* DesignTokens.swift */,
+				66E1DC663683B4A562AB2B39 /* SplicerApp.swift */,
+				804E06F1AB434BF2DF3D1684 /* Board */,
+				5BBA6AA10B47EE198E06072F /* BurnMark */,
+				C8093DEAC428F2E052F638AE /* Dark */,
+				0867FB0CB8E555663A8212A7 /* Gate */,
+				F2656E1E5E5B0CC89D6D923E /* SlipMark */,
+				936F04FACBC744CC9DED3406 /* Stack */,
+				8D1053AB121F84BAD18702B2 /* Stub */,
+			);
+			path = Splicer;
+			sourceTree = "<group>";
+		};
+		804E06F1AB434BF2DF3D1684 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				2B05955E1BFDDB9A88E60E3D /* BoardDesk.swift */,
+				CDF62AF74881495307BC4B11 /* BoardFold.swift */,
+				78E2AAA799255B4117B6B851 /* BoardRoot.swift */,
+				868638A6775576B8520B2B7E /* BurnChrome.swift */,
+				4719261827EEFF918A083AFD /* LaneChartStore.swift */,
+				62B8E6EDDFEFE59C351254F0 /* LaneLayout.swift */,
+				1FF35067887B978FF92D0AA5 /* OnboardingCover.swift */,
+				73CFE5B31FBB853626DA857E /* ReviewLaunch.swift */,
+				FD2419458905D051579C99FF /* SettingsSheet.swift */,
+				8C9D2558F3C55CD2BA4F050D /* SpliceTokens.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		8D1053AB121F84BAD18702B2 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				53626212A5F9F7AF67888B3A /* Stub.swift */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
+		936F04FACBC744CC9DED3406 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				BDD07DA613B0699BE50CD434 /* DiscoverSheet.swift */,
+				44B872D62DC8FD0023B33312 /* StackLane.swift */,
+				15AFDF20782306B0387006C5 /* TitleSearch.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		B2BB249E2B07714C720B7AD9 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				25991BF419CA4DDD8270BFD9 /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		C8093DEAC428F2E052F638AE /* Dark */ = {
+			isa = PBXGroup;
+			children = (
+				38ECFE6A92622BDC9C9433DD /* DarkEmpty.swift */,
+			);
+			path = Dark;
+			sourceTree = "<group>";
+		};
+		D6BA5C0850D3C4227ECA8490 /* SplicerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2E3FE936B0FBACC3AC0F4CE /* SplicerTests.swift */,
+			);
+			path = SplicerTests;
+			sourceTree = "<group>";
+		};
+		DAFA6E4AAF6098ADB7E81E7F = {
+			isa = PBXGroup;
+			children = (
+				B2BB249E2B07714C720B7AD9 /* OneSignalNotificationServiceExtension */,
+				6E7382EBD9013E25EE27B88C /* Splicer */,
+				D6BA5C0850D3C4227ECA8490 /* SplicerTests */,
+				5B272DB1B8B628E57A99F3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2656E1E5E5B0CC89D6D923E /* SlipMark */ = {
+			isa = PBXGroup;
+			children = (
+				E1C46222EA2497B986E1972B /* SlipMark.swift */,
+			);
+			path = SlipMark;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15BB36F536982BF0B6CE31BA /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8AE14FF4BC7BF5C03476407 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				851867FC8C2646F2F263D2DA /* Sources */,
+				A1D306E2A0561AC034FEDBB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				C52867BA30BCC5BFC3B71981 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 1A25BBBB45B6E613DFC812C1 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		20104CDCC1E46BC6B2140698 /* SplicerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE9D8FF3BFF8D3234BBBD73 /* Build configuration list for PBXNativeTarget "SplicerTests" */;
+			buildPhases = (
+				E2BFA2C543F8D8CAF96F1EBB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E518E3398A1A21FCAD368B2E /* PBXTargetDependency */,
+			);
+			name = SplicerTests;
+			packageProductDependencies = (
+			);
+			productName = SplicerTests;
+			productReference = B8C743AC9F2019E9334B3E58 /* SplicerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		934C41EBDCAFA7A8C1E1A52C /* Splicer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F839377FF479A3E8784D00 /* Build configuration list for PBXNativeTarget "Splicer" */;
+			buildPhases = (
+				9247F428D8374058969ED6CE /* Sources */,
+				F57B6E7219A5FACE9E96CA52 /* Resources */,
+				540B0DEBC5302A5E0A0B7246 /* Frameworks */,
+				43AEF1DF3031A9B587DF67C5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB75B2AD604EAA98BF59D97 /* PBXTargetDependency */,
+			);
+			name = Splicer;
+			packageProductDependencies = (
+				98EA37FC27B838AC2E26DD95 /* Alamofire */,
+				21588A03EFD95BBAC4B4E965 /* OneSignalFramework */,
+				B637C3B5F2154D005034C5AA /* OneSignalInAppMessages */,
+			);
+			productName = Splicer;
+			productReference = 5D6C1B9AA1EB64A1C17D93AD /* Splicer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7C7D585BAA318C3249303AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					15BB36F536982BF0B6CE31BA = {
+						ProvisioningStyle = Automatic;
+					};
+					20104CDCC1E46BC6B2140698 = {
+						ProvisioningStyle = Automatic;
+					};
+					934C41EBDCAFA7A8C1E1A52C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8DE92AEE59DB2C4559C18F1B /* Build configuration list for PBXProject "Splicer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DAFA6E4AAF6098ADB7E81E7F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D31E879037FDF157015283C3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				21E2A270DE8E350F29B8D015 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5B272DB1B8B628E57A99F3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934C41EBDCAFA7A8C1E1A52C /* Splicer */,
+				20104CDCC1E46BC6B2140698 /* SplicerTests */,
+				15BB36F536982BF0B6CE31BA /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57B6E7219A5FACE9E96CA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0BDE563407F05929187910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851867FC8C2646F2F263D2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B37836BAC24308702D2E8D /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9247F428D8374058969ED6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89BA24E90DB6081139BACF /* APIConfig.swift in Sources */,
+				E095C997A97295F8675AAA22 /* AppDelegate.swift in Sources */,
+				93A29F8ADA38ED76A6788915 /* AshSheet.swift in Sources */,
+				6783E5099AF93C51209123B5 /* BoardDesk.swift in Sources */,
+				E8E4AB2BBE0E93FBDC590847 /* BoardFold.swift in Sources */,
+				D9F9BB8D384CDDEC5EACDB01 /* BoardRoot.swift in Sources */,
+				F523DA088946A227DA90E16C /* BurnChrome.swift in Sources */,
+				21AFC8146316E4B601BCC5F8 /* BurnMark.swift in Sources */,
+				0F8608B0511C4E4731F61064 /* ContentView.swift in Sources */,
+				135B3C9487AE066A03A34AD5 /* DarkEmpty.swift in Sources */,
+				1DB913581E6996B4C9E10159 /* DesignTokens.swift in Sources */,
+				1C2946CBEA5764154990181F /* DiscoverSheet.swift in Sources */,
+				0DDF9D31553806967F5E059B /* GateLane.swift in Sources */,
+				D7B386D43653D3C6C2628D2C /* LaneChartStore.swift in Sources */,
+				EAB1C0BFB9003C177D158C27 /* LaneLayout.swift in Sources */,
+				E487A507005019EA6295D901 /* OnboardingCover.swift in Sources */,
+				4AE4F8FD7D93644592177E24 /* ProfileSheet.swift in Sources */,
+				F31414A2B873EDEB13E9D02B /* ReviewLaunch.swift in Sources */,
+				F09649D62E437DD41ABD167F /* SettingsSheet.swift in Sources */,
+				C97F50AE0236193D9C4332AD /* SlipMark.swift in Sources */,
+				05D808C9D55F2B55AC39F13D /* SpliceTokens.swift in Sources */,
+				E955B0C46169C018D474F5E0 /* SplicerApp.swift in Sources */,
+				8184944F440C6102CD09E16B /* StackLane.swift in Sources */,
+				A5C38714D44BC4182A19FC88 /* Stub.swift in Sources */,
+				3047771F06A9CCFE94B94921 /* TitleSearch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BFA2C543F8D8CAF96F1EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D028794B91BE9B6C6718178 /* SplicerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEB75B2AD604EAA98BF59D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BB36F536982BF0B6CE31BA /* OneSignalNotificationServiceExtension */;
+			targetProxy = A1B7D2D29A3A57B15C9B9A2C /* PBXContainerItemProxy */;
+		};
+		E518E3398A1A21FCAD368B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934C41EBDCAFA7A8C1E1A52C /* Splicer */;
+			targetProxy = A9A4372417F45E717F0A838A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BF82A1663C81949D652800D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Splicer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Splicer-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Splicer;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.splicer.lane;
+				PRODUCT_NAME = Splicer;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3360A2F22EB075AC52A2AE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.splicer.lane.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61CD8DA9A466D84C107B2B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.splicer.lane.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splicer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Splicer";
+			};
+			name = Debug;
+		};
+		6A2176BF600CFDBB961E0C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		84A6169C3E1A227B4AA5A7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Splicer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Splicer-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Splicer;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.splicer.lane;
+				PRODUCT_NAME = Splicer;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C84C66A03E94081C7E1538A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.splicer.lane.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AA7F769B3F14851CA9DFA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		C2003529BB948F6B54C1FC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.splicer.lane.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splicer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Splicer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE9D8FF3BFF8D3234BBBD73 /* Build configuration list for PBXNativeTarget "SplicerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CD8DA9A466D84C107B2B20 /* Debug */,
+				C2003529BB948F6B54C1FC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8DE92AEE59DB2C4559C18F1B /* Build configuration list for PBXProject "Splicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA7F769B3F14851CA9DFA0E /* Debug */,
+				6A2176BF600CFDBB961E0C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8AE14FF4BC7BF5C03476407 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3360A2F22EB075AC52A2AE31 /* Debug */,
+				8C84C66A03E94081C7E1538A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9F839377FF479A3E8784D00 /* Build configuration list for PBXNativeTarget "Splicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF82A1663C81949D652800D /* Debug */,
+				84A6169C3E1A227B4AA5A7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21E2A270DE8E350F29B8D015 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		D31E879037FDF157015283C3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/srfcsthpvf-prog/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21588A03EFD95BBAC4B4E965 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21E2A270DE8E350F29B8D015 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		98EA37FC27B838AC2E26DD95 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31E879037FDF157015283C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B637C3B5F2154D005034C5AA /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21E2A270DE8E350F29B8D015 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		C52867BA30BCC5BFC3B71981 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21E2A270DE8E350F29B8D015 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A7C7D585BAA318C3249303AA /* Project object */;
+}

@@ -1,0 +1,17 @@
+No permissions appear. The app requests none, so there are no usage-description strings.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Splicer is a watch pile for one person on this device. You stash titles on a stack, draw one onto the gate, and burn it when that watch finishes so the pile shrinks. It is for people who want to finish one title at a time, not keep a growing seen shelf or open a store of streams.
+
+No credentials or demo account are needed. On a cold launch that has never finished onboarding, a short system launch screen is followed by a three-page cover. Each page has Skip at the top right; Skip ends onboarding and opens the board the same way as Continue on the last page. Page 1 shows Keep one title on the gate. and Splicer is a watch pile for this device. You stash titles, then burn them one at a time. with Next. Page 2 shows Draw, then burn. and Draw moves the top of the stack onto the gate. Burn writes the finish and takes that title off the board. with Next. Page 3 shows Ash keeps the order. and Rate each burn from 1 to 5. Profile reads those grades and nothing else. with Continue. After Skip or Continue on a first-time device with nothing saved, the empty-board screen shows Nothing is on the board. and Stash a title on the stack, then draw it onto the gate when you are ready to watch. Tap Stash a title to open Discover. With Search a title clear, the shelf lists Night Ferry, Glass Orchard, Low Tide Ledger, and Copper Hour; each row offers Stash on the stack. After a stash, the board shows Stack and Gate under Burn the gate, with Discover, Ash, Profile, and Settings. Tap Draw when the gate chip reads Open and the stack is not The stack is empty. to seat the top title. Tap Burn the gate when the chip reads Seated; the sheet Rate with that title appears with The grade stays on this burn. and controls 1, 2, 3, 4, and 5, or dismiss to leave Unrated. Open Ash for burn order with day and Grade or Unrated. Open Profile for Burns and Grade 1 through Grade 5. Open Settings for Run onboarding again, Reset all data, or Contact.
+
+The pile, burns, and grades stay on this device. Contact in Settings opens the support page.
+
+There is no region lock. English copy only is bundled. Day figures on Ash use the device calendar. Counts and grades follow the device number format without grouping separators.
+
+No licence or regulated-industry paperwork applies. The app is a personal entertainment watch pile and does not sell goods, handle payments, or provide regulated services.
+
+The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information. Discover lists names only; the on-screen credit is Title names from Open Food Facts.
+
+There is no barcode or QR scan.

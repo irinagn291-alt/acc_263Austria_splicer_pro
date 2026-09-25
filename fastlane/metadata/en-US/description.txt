@@ -1,0 +1,12 @@
+Splicer is a watch pile for one person on this device. You stash titles on a stack, draw one onto the gate, and burn it when that watch finishes so the pile shrinks. It is for people who want to finish one title at a time, not keep a growing seen shelf or open a store of streams.
+
+• A watch pile on this device: stash titles, keep one on the gate, burn it when the watch finishes
+• Discover: search a title or pick from the shelf, then Stash on the stack
+• Draw: move the top of the stack onto the gate. Only one title can be seated
+• Burn the gate: write the finish, take that title off the board, then rate 1 to 5
+• Ash: burn order with day and grade or Unrated. Not a list of titles still on the board
+• Profile: burn count and how many burns hold each grade from 1 to 5
+• Settings: Run onboarding again, Reset all data, Contact
+• Board, Ash, and Profile stay on this device across launches until reset
+
+The pile, burns, and grades stay on this device. Contact in Settings opens the support page.

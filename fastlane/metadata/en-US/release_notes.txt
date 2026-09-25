@@ -1,0 +1,12 @@
+Version 1.0 is the first release of Splicer, a watch pile for one person on this device.
+
+• Three-page cover onboarding with Skip and Continue
+• Board with Stack and Gate under Burn the gate
+• Discover to search a title or pick from the shelf, then Stash on the stack
+• Draw to seat one title on the gate
+• Burn the gate, then rate from 1 to 5 or leave Unrated
+• Ash for burn order with day and Grade or Unrated
+• Profile for Burns and Grade 1 through Grade 5
+• Settings with Run onboarding again, Reset all data, and Contact
+• Empty board when Nothing is on the board
+• Pile, burns, and grades stay on this device across launches until reset
