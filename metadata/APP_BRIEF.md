@@ -1,4 +1,4 @@
-<!-- gf-brief source=2c96f22b2705d7116fcab00b9e4c93ef7fcb33e7d1c08060b18688ff6442ec48 written=2026-09-26T02:14:09+03:00 -->
+<!-- gf-brief source=2c96f22b2705d7116fcab00b9e4c93ef7fcb33e7d1c08060b18688ff6442ec48 written=2026-09-26T02:14:24+03:00 -->
 # Splicer
 
 ## What it is
